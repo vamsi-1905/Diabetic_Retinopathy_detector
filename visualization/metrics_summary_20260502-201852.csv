@@ -1,0 +1,2 @@
+run_id,model,optimizer,loss_fn,epochs,final_train_loss,final_grad_norm,significant_features,train_reports,val_reports,test_reports,total_reports,test_processed,test_accuracy,test_f1_score,test_auc
+20260502-201852,DRClassifierNN (MLP),"Adam (β1=0.9, β2=0.999)","FocalBCE (α=0.75, γ=2.0)",200,0.01893,0.11081,"['pde_edge_score', 'hosvd_entropy', 'qr_condition_number', 'qr_rank', 'gauss_determinant', 'gauss_trace', 'fourier_spectral_entropy', 'micro_count', 'vessel_density']",200,200,200,600,640,0.8671875,0.9159248269040554,0.9088844315969559
